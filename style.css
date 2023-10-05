@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.header{
+    height: 10vh;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+}
+.content{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.571);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    height: 100px;
+    width: 300px;
+    display: none;
+    
+}
+
+.buttons button{
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+    background-color: #494eea;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+.texts{
+    height: fit-content;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+.texts .text-content{
+    margin: auto;
+    height: 100%;
+    font-weight: 500;
+    width: 90%;
+}
+.text-content input{
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+}
+.text-content button{
+    color: white;
+    background-color: #494eea;
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.text-content .qrcode{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/*Bank*/
